@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\order_food;
 
 use App\Models\order;
 use Illuminate\Http\Request;
@@ -12,7 +13,7 @@ class OrderController extends Controller
      */
     public function index()
     {
-        //
+        return order_food::all();
     }
 
     /**
