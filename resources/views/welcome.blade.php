@@ -51,7 +51,11 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
+                                Warning: require(C:\Users\Lupita\Documents\UTTI\9no Cuatri\ProyectosErick\foodTruck/vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\Lupita\Documents\UTTI\9no Cuatri\ProyectosErick\foodTruck\artisan on line 18
+                                PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Lupita\Documents\UTTI\9no Cuatri\ProyectosErick\foodTruck/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\Users\Lupita\Documents\UTTI\9no Cuatri\ProyectosErick\foodTruck\artisan:18
+                                Stack trace:
+                                #0 {main}
+                                thrown in C:\Users\Lupita\Documents\UTTI\9no Cuatri\ProyectosErick\foodTruck\artisan on line 18
                                 </p>
                             </div>
 
