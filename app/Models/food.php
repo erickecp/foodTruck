@@ -15,6 +15,8 @@ class food extends Model
         'price',
         'price_sale',
         'description',
+        'color',
+        'Speciality',
         'category_id',
     ];
 
